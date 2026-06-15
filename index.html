@@ -34,10 +34,10 @@
       <header class="header">
         <div class="container header-inner">
           <a class="brand" href="#start" aria-label="Zur Startseite">
-            <span class="brand-mark">GS</span>
+            <span class="brand-mark">NG</span>
             <span class="brand-text">
-              <strong>Nordglanz Autohaus</strong>
-              <span>Demo-Standort</span>
+              <strong>Nordglanz Automobile</strong>
+              <span>Beispielstadt</span>
             </span>
           </a>
 
@@ -54,91 +54,62 @@
           </button>
 
           <nav id="site-nav" class="nav">
-            <a href="#fahrzeuge">Fahrzeuge</a>
-            <a href="#vorteile">Vorteile</a>
+            <a href="#start" class="is-active">Startseite</a>
             <a href="#service">Service</a>
+            <a href="#vorteile">Inzahlungnahme</a>
+            <a href="./unternehmen.html">Unternehmen</a>
             <a href="#kontakt">Kontakt</a>
           </nav>
+
+          <a class="header-cta btn btn-primary" href="#fahrzeuge">Fahrzeugsuche</a>
         </div>
       </header>
 
       <main id="start">
-        <section class="hero section">
-          <div class="container hero-grid">
-            <div class="hero-copy reveal">
-              <span class="eyebrow">Gebrauchtwagen und Service</span>
-              <h1>Ihr Demo-Autohaus für geprüfte Fahrzeuge, faire Finanzierung und klare Abläufe.</h1>
-              <p class="lead">
-                Über 90 geprüfte Jahres- und Gebrauchtwagen, direkte Beratung vor Ort,
-                flexible Finanzierung sowie Prüf-, Garantie- und Inzahlungnahme-Angebote aus einer Hand.
+        <section class="hero hero-photo">
+          <div class="hero-photo-bg" aria-hidden="true"></div>
+          <div class="hero-photo-overlay" aria-hidden="true"></div>
+          <div class="container hero-stage">
+            <div class="hero-copy hero-copy-center reveal">
+              <span class="eyebrow eyebrow-light">Jahreswagen & junge Gebrauchtwagen</span>
+              <h1>Ihr Auto wartet auf Sie!</h1>
+              <p class="lead hero-lead">
+                Geprüfte Fahrzeuge, faire Finanzierung und ein klarer Ablauf.
               </p>
-
-              <div class="hero-actions">
-                <a class="btn btn-primary" href="#fahrzeuge">Bestand entdecken</a>
-                <a class="btn btn-secondary" href="#kontakt">Beratung anfragen</a>
-              </div>
-
-              <dl class="stats">
-                <div>
-                  <dt>90+</dt>
-                  <dd>geprüfte Fahrzeuge</dd>
-                </div>
-                <div>
-                  <dt>24 Monate</dt>
-                  <dd>optionale Garantie</dd>
-                </div>
-                <div>
-                  <dt>Partnerbank</dt>
-                  <dd>flexible Konditionen</dd>
-                </div>
-              </dl>
             </div>
 
-            <div class="hero-panel reveal">
-              <div class="hero-card hero-card-main">
-                <div class="hero-card-top">
-                  <span class="pill">Beispielstadt · Demo</span>
-                  <span class="pill pill-accent">geprüfte Fahrzeuge</span>
-                </div>
-                <h2>Transparente Auswahl statt Überraschungen.</h2>
-                <p>
-                  Leasingrückläufer mit lückenloser Historie, nachvollziehbare Fahrzeugdaten
-                  und klare Konditionen ohne versteckte Kosten.
-                </p>
-              </div>
-
-              <div class="hero-card-grid">
-                <article class="mini-card">
-                  <span>Finanzierung</span>
-                  <strong>Flexible Raten</strong>
-                  <p>Individuell kalkuliert für Privat- und Geschäftskunden.</p>
-                </article>
-                <article class="mini-card">
-                  <span>Inzahlungnahme</span>
-                  <strong>Altfahrzeug anrechnen</strong>
-                  <p>Komfortabel und fair in einen neuen Wagen wechseln.</p>
-                </article>
-                <article class="mini-card">
-                  <span>Service</span>
-                  <strong>Zulassung & Ölwechsel</strong>
-                  <p>Zusätzliche Leistungen direkt über das Autohaus.</p>
-                </article>
-                <article class="mini-card">
-                  <span>Standort</span>
-                  <strong>00000 Beispielstadt</strong>
-                  <p>Gut erreichbar aus der gesamten Demo-Region.</p>
-                </article>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="strip">
-          <div class="container trust-row reveal">
-            <div class="trust-item"><span>Finanzierung</span><small>flexible Laufzeiten</small></div>
-            <div class="trust-item"><span>Prüfung</span><small>externe Begutachtung</small></div>
-            <div class="trust-item"><span>Garantie</span><small>bis 24 Monate</small></div>
-            <div class="trust-item"><span>Demo</span><small>fiktive Markenwelt</small></div>
+            <form class="hero-search reveal" action="#fahrzeuge">
+              <label>
+                Hersteller
+                <select>
+                  <option>Alle Hersteller</option>
+                  <option>BMW</option>
+                  <option>Mercedes-Benz</option>
+                  <option>Audi</option>
+                  <option>Porsche</option>
+                </select>
+              </label>
+              <label>
+                Modell
+                <select>
+                  <option>Alle Modelle</option>
+                  <option>Limousine</option>
+                  <option>SUV</option>
+                  <option>Coupé</option>
+                  <option>Kombi</option>
+                </select>
+              </label>
+              <label>
+                Preis bis
+                <select>
+                  <option>Keine Obergrenze</option>
+                  <option>20.000 €</option>
+                  <option>35.000 €</option>
+                  <option>50.000 €</option>
+                </select>
+              </label>
+              <button class="btn btn-primary hero-search-btn" type="submit">83 Treffer</button>
+            </form>
           </div>
         </section>
 

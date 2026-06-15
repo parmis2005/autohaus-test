@@ -509,32 +509,32 @@ textarea {
 }
 
 .vehicle-1 {
-  background-image: url("./assets/cars/bmw-3-series.jpg");
+  background-image: url("./assets/cars/bmw-3-series.png");
   background-position: center 58%;
 }
 
 .vehicle-2 {
-  background-image: url("./assets/cars/mercedes-c-class.jpg");
+  background-image: url("./assets/cars/mercedes-c-class.png");
   background-position: center center;
 }
 
 .vehicle-3 {
-  background-image: url("./assets/cars/audi-a6-side.jpg");
+  background-image: url("./assets/cars/audi-a6-side.png");
   background-position: center center;
 }
 
 .vehicle-4 {
-  background-image: url("./assets/cars/porsche-panamera.jpg");
+  background-image: url("./assets/cars/porsche-panamera.png");
   background-position: center 55%;
 }
 
 .vehicle-5 {
-  background-image: url("./assets/cars/bmw-5-series-touring.jpg");
+  background-image: url("./assets/cars/bmw-5-series-touring.png");
   background-position: center center;
 }
 
 .vehicle-6 {
-  background-image: url("./assets/cars/mercedes-e-class.jpg");
+  background-image: url("./assets/cars/mercedes-e-class.png");
   background-position: center center;
 }
 

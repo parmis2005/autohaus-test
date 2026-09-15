@@ -1766,7 +1766,7 @@ h4 {
    Einblend-Animationen
    -------------------------------------------------------------------------- */
 
-html.js .reveal {
+.reveal {
   opacity: 0;
   transform: translateY(1.5rem);
   transition:
@@ -1775,13 +1775,13 @@ html.js .reveal {
   transition-delay: var(--delay, 0ms);
 }
 
-html.js .reveal.is-visible {
+.reveal.is-visible {
   opacity: 1;
   transform: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  html.js .reveal {
+  .reveal {
     opacity: 1;
     transform: none;
     transition: none;

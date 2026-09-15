@@ -262,8 +262,10 @@ export default function HomeInteractive() {
                     : undefined
                 }
               >
-                {item.name}
-                {item.sub ? <small>{item.sub}</small> : null}
+                <span className="sr-only">{item.name}</span>
+                <svg className="brand-logo" aria-hidden="true">
+                  <use href={`#${item.icon}`} />
+                </svg>
               </a>
             ))}
           </div>

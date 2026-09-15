@@ -9,6 +9,7 @@
   --primary-dark: #163a6e;
   --primary-soft: rgba(28, 71, 135, 0.1);
   --primary-line: rgba(28, 71, 135, 0.2);
+  --brand-navy: #16233f;
   --fg: #263140;
   --fg-80: rgba(38, 49, 64, 0.8);
   --muted-fg: #627084;
@@ -702,31 +703,21 @@ h4 {
 
 .brand-item {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  line-height: 1.1;
   width: 150px;
   height: 100px;
   margin-right: 28px;
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-size: 1.3rem;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  color: var(--gray-500);
-  white-space: nowrap;
+  color: var(--brand-navy);
   transition:
     color 0.3s ease,
     transform 0.3s ease;
 }
 
-.brand-item small {
-  display: block;
-  font-size: 0.6rem;
-  letter-spacing: 0.25em;
-  font-weight: 600;
-  text-align: center;
+.brand-logo {
+  width: 118px;
+  height: 52px;
+  color: inherit;
 }
 
 .brand-item:hover {
@@ -1944,7 +1935,11 @@ h4 {
   .brand-item {
     width: 120px;
     height: 80px;
-    font-size: 1.05rem;
     margin-right: 15px;
+  }
+
+  .brand-logo {
+    width: 94px;
+    height: 42px;
   }
 }

@@ -123,14 +123,14 @@ export const vehicleTypes = [
 ];
 
 export const brandMarquee = [
-  { name: "BMW", brand: "BMW" },
-  { name: "Mercedes", sub: "Benz", brand: "Mercedes-Benz" },
-  { name: "Audi", brand: "Audi" },
-  { name: "Porsche", brand: "Porsche" },
-  { name: "Volkswagen" },
-  { name: "Opel" },
-  { name: "MINI" },
-  { name: "Ford" },
-  { name: "Škoda" },
-  { name: "Hyundai" },
+  { name: "BMW", icon: "logo-bmw", brand: "BMW" },
+  { name: "Mercedes-Benz", icon: "logo-mercedes", brand: "Mercedes-Benz" },
+  { name: "Audi", icon: "logo-audi", brand: "Audi" },
+  { name: "Porsche", icon: "logo-porsche", brand: "Porsche" },
+  { name: "Volkswagen", icon: "logo-vw" },
+  { name: "Opel", icon: "logo-opel" },
+  { name: "MINI", icon: "logo-mini" },
+  { name: "Ford", icon: "logo-ford" },
+  { name: "Škoda", icon: "logo-skoda" },
+  { name: "Hyundai", icon: "logo-hyundai" },
 ];

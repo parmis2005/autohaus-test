@@ -220,7 +220,7 @@ h4 {
 }
 
 /* --------------------------------------------------------------------------
-   Header: Topbar + Navigation
+   Header: Navigation
    -------------------------------------------------------------------------- */
 
 .site-header {
@@ -233,32 +233,6 @@ h4 {
 
 .site-header.is-hidden {
   transform: translateY(-100%);
-}
-
-.topbar {
-  background: var(--gray-950);
-  border-bottom: 1px solid var(--gray-800);
-  color: var(--gray-100);
-  font-size: 0.875rem;
-}
-
-.topbar-inner {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  padding: 0.625rem 0;
-}
-
-.topbar a {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-weight: 500;
-  transition: color 0.2s ease;
-}
-
-.topbar a:hover {
-  color: #fff;
 }
 
 .navbar {
@@ -1829,10 +1803,6 @@ h4 {
 }
 
 @media (max-width: 1023px) {
-  .topbar {
-    display: none;
-  }
-
   .nav,
   .header-cta {
     display: none;

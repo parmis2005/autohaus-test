@@ -104,23 +104,6 @@ export default function Header() {
       className={`site-header${scrolled ? " is-scrolled" : ""}${hidden ? " is-hidden" : ""}`}
       id="site-header"
     >
-      <div className="topbar">
-        <div className="container topbar-inner">
-          <a href="tel:+495550182049">
-            <svg className="icon">
-              <use href="#i-phone" />
-            </svg>
-            0555 018 20 49
-          </a>
-          <a href="mailto:hallo@nordglanz-auto.example">
-            <svg className="icon">
-              <use href="#i-mail" />
-            </svg>
-            hallo@nordglanz-auto.example
-          </a>
-        </div>
-      </div>
-
       <nav className="navbar" aria-label="Hauptnavigation">
         <div className="container navbar-inner">
           <Link className="brand" href="/" aria-label="Nordglanz Automobilhaus – Startseite">

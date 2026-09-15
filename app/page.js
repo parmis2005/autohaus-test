@@ -1,11 +1,13 @@
 import HomeInteractive from "@/components/HomeInteractive";
 import ContactForm from "@/components/ContactForm";
+import HeroVideo from "@/components/HeroVideo";
 
 export default function HomePage() {
   return (
     <main id="start">
       {/* Hero */}
       <section className="hero" id="home" aria-label="Willkommen">
+        <HeroVideo />
         <div className="hero-content">
           <h1>Ihr Auto wartet auf Sie!</h1>
           <p>Jahreswagen &amp; junge Gebrauchtwagen</p>

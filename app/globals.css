@@ -544,10 +544,28 @@ h4 {
   display: grid;
   place-items: center;
   padding: 3rem 0 10rem;
-  background: var(--gray-800)
-    url("https://upload.wikimedia.org/wikipedia/commons/5/54/EuroMotorcars_Bethesda_MD_2021-12-12_09-44-18_1.jpg")
-    center 40% / cover no-repeat;
+  background: var(--gray-800);
   overflow: hidden;
+}
+
+.hero-video,
+.hero-video-fallback {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(180deg, rgba(3, 7, 18, 0.45) 0%, rgba(3, 7, 18, 0.3) 45%, rgba(3, 7, 18, 0.55) 100%);
+  pointer-events: none;
 }
 
 .hero::after {
@@ -555,7 +573,7 @@ h4 {
   position: absolute;
   inset: auto 0 0;
   height: 9rem;
-  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
   pointer-events: none;
 }
 
@@ -1880,7 +1898,11 @@ h4 {
   .hero {
     min-height: 24rem;
     padding: 2rem 0 4rem;
-    background-position: center;
+  }
+
+  .hero-video,
+  .hero-video-fallback {
+    object-position: center 22%;
   }
 
   .quick-search {

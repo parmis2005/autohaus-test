@@ -36,10 +36,10 @@ export default function DatenschutzPage() {
             </p>
             <h2>4. Externe Dienste</h2>
             <p>
-              Schriftarten werden von Google Fonts geladen; das Hero-Bild wird von Wikimedia
-              Commons eingebunden. Beim Laden dieser Ressourcen wird Ihre IP-Adresse an den
-              jeweiligen Anbieter übermittelt. Der Link zu Google Maps öffnet die Karte in einem
-              neuen Fenster.
+              Schriftarten werden von Google Fonts geladen; beim Laden wird Ihre IP-Adresse an
+              Google übermittelt. Das Hintergrundvideo und alle Fahrzeugbilder werden direkt von
+              unserem eigenen Server ausgeliefert, ohne Einbindung eines externen Anbieters. Der
+              Link zu Google Maps öffnet die Karte in einem neuen Fenster.
             </p>
             <h2>5. Ihre Rechte</h2>
             <p>

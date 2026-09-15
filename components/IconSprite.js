@@ -141,73 +141,81 @@ export default function IconSprite() {
       {/* Vereinfachte Marken-Embleme fürs Markenband (Wiedererkennungswert, keine
           exakten Markenzeichen) – einfarbig via currentColor, einheitliche viewBox. */}
       <symbol id="logo-bmw" viewBox="0 0 160 60">
-        <circle cx="80" cy="30" r="26" fill="none" stroke="currentColor" strokeWidth="3" />
-        <path d="M80 30 L80 5.5 A24.5 24.5 0 0 0 55.5 30 Z" />
-        <path d="M80 30 L80 54.5 A24.5 24.5 0 0 0 104.5 30 Z" />
+        <circle cx="80" cy="30" r="27" fill="none" stroke="currentColor" strokeWidth="1.6" />
+        <circle cx="80" cy="30" r="22.5" fill="none" stroke="currentColor" strokeWidth="3.5" />
+        <path d="M80 30 L80 8.2 A21.8 21.8 0 0 0 58.2 30 Z" />
+        <path d="M80 30 L80 51.8 A21.8 21.8 0 0 0 101.8 30 Z" />
       </symbol>
       <symbol id="logo-mercedes" viewBox="0 0 160 60">
-        <circle cx="80" cy="30" r="26" fill="none" stroke="currentColor" strokeWidth="3" />
+        <circle cx="80" cy="30" r="26" fill="none" stroke="currentColor" strokeWidth="3.5" />
         <path
-          d="M80 8 L80 30 M80 30 L61 41 M80 30 L99 41"
+          d="M80 9 L80 30 M80 30 L60.5 42 M80 30 L99.5 42"
           fill="none"
           stroke="currentColor"
-          strokeWidth="3.5"
+          strokeWidth="4"
           strokeLinecap="round"
         />
       </symbol>
       <symbol id="logo-audi" viewBox="0 0 160 60">
-        <circle cx="34" cy="30" r="18" fill="none" stroke="currentColor" strokeWidth="3.5" />
-        <circle cx="58" cy="30" r="18" fill="none" stroke="currentColor" strokeWidth="3.5" />
-        <circle cx="82" cy="30" r="18" fill="none" stroke="currentColor" strokeWidth="3.5" />
-        <circle cx="106" cy="30" r="18" fill="none" stroke="currentColor" strokeWidth="3.5" />
+        <circle cx="35" cy="30" r="17.5" fill="none" stroke="currentColor" strokeWidth="4" />
+        <circle cx="58.5" cy="30" r="17.5" fill="none" stroke="currentColor" strokeWidth="4" />
+        <circle cx="82" cy="30" r="17.5" fill="none" stroke="currentColor" strokeWidth="4" />
+        <circle cx="105.5" cy="30" r="17.5" fill="none" stroke="currentColor" strokeWidth="4" />
       </symbol>
       <symbol id="logo-porsche" viewBox="0 0 160 60">
-        <line x1="18" y1="16" x2="142" y2="16" stroke="currentColor" strokeWidth="1.5" opacity="0.55" />
         <text
           x="80"
-          y="38"
+          y="39"
           textAnchor="middle"
           fontWeight="800"
-          fontSize="19"
-          letterSpacing="2.5"
+          fontSize="22"
+          letterSpacing="3"
           fill="currentColor"
           style={{ fontFamily: "var(--font-display, sans-serif)" }}
         >
           PORSCHE
         </text>
-        <line x1="18" y1="44" x2="142" y2="44" stroke="currentColor" strokeWidth="1.5" opacity="0.55" />
       </symbol>
       <symbol id="logo-vw" viewBox="0 0 160 60">
-        <circle cx="80" cy="30" r="26" fill="none" stroke="currentColor" strokeWidth="3" />
+        <circle cx="80" cy="30" r="26" fill="none" stroke="currentColor" strokeWidth="3.5" />
         <path
-          d="M69 15 L80 28 L91 15 M62 24 L70 41 L80 27 L90 41 L98 24"
+          d="M66 16 L80 30 L94 16"
           fill="none"
           stroke="currentColor"
-          strokeWidth="3.2"
+          strokeWidth="4.2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M60 24 L70 44 L80 28 L90 44 L100 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="4.2"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
       </symbol>
       <symbol id="logo-opel" viewBox="0 0 160 60">
         <circle cx="80" cy="30" r="26" fill="none" stroke="currentColor" strokeWidth="3" />
-        <path d="M93 9 L68 33 L80 33 L66 51 L96 26 L82 26 Z" />
+        <path d="M97 8 L64 33.5 L80 33.5 L62 55 L100 24 L82 24 Z" />
       </symbol>
       <symbol id="logo-mini" viewBox="0 0 160 60">
         <path
-          d="M10 32 C 20 18, 32 16, 40 24 L34 30 C 29 25, 22 26, 16 34 Z"
+          d="M6 30 C 16 14, 32 10, 44 20 L 36 27 C 28 20, 18 22, 12 32 Z"
           fill="currentColor"
         />
         <path
-          d="M150 32 C 140 18, 128 16, 120 24 L126 30 C 131 25, 138 26, 144 34 Z"
+          d="M154 30 C 144 14, 128 10, 116 20 L 124 27 C 132 20, 142 22, 148 32 Z"
           fill="currentColor"
         />
+        <circle cx="80" cy="31" r="18" fill="none" stroke="currentColor" strokeWidth="2" />
         <text
           x="80"
-          y="38"
+          y="37"
           textAnchor="middle"
           fontWeight="800"
-          fontSize="22"
-          letterSpacing="2"
+          fontSize="13"
+          letterSpacing="1"
           fill="currentColor"
           style={{ fontFamily: "var(--font-display, sans-serif)" }}
         >
@@ -215,14 +223,14 @@ export default function IconSprite() {
         </text>
       </symbol>
       <symbol id="logo-ford" viewBox="0 0 160 60">
-        <ellipse cx="80" cy="30" rx="52" ry="22" fill="none" stroke="currentColor" strokeWidth="3" />
+        <ellipse cx="80" cy="30" rx="54" ry="23" fill="none" stroke="currentColor" strokeWidth="3.5" />
         <text
           x="80"
           y="39"
           textAnchor="middle"
           fontWeight="700"
           fontStyle="italic"
-          fontSize="24"
+          fontSize="25"
           fill="currentColor"
           style={{ fontFamily: "var(--font-display, sans-serif)" }}
         >
@@ -230,25 +238,26 @@ export default function IconSprite() {
         </text>
       </symbol>
       <symbol id="logo-skoda" viewBox="0 0 160 60">
-        <circle cx="80" cy="30" r="26" fill="none" stroke="currentColor" strokeWidth="3" />
-        <path d="M80 12 L91 27 L83.5 27 L83.5 47 L76.5 47 L76.5 27 L69 27 Z" />
+        <circle cx="80" cy="30" r="24" fill="none" stroke="currentColor" strokeWidth="3.5" />
+        <path d="M80 13 L91 29 L84 29 L84 47 L76 47 L76 29 L69 29 Z" />
         <path
-          d="M80 18 C 71 17, 64 21, 60 28 M80 18 C 89 17, 96 21, 100 28"
+          d="M78 21 C 64 17, 50 20, 40 30 M82 21 C 96 17, 110 20, 120 30"
           fill="none"
           stroke="currentColor"
-          strokeWidth="2.6"
+          strokeWidth="3.4"
           strokeLinecap="round"
         />
       </symbol>
       <symbol id="logo-hyundai" viewBox="0 0 160 60">
-        <g transform="rotate(-11 80 30)">
-          <ellipse cx="80" cy="30" rx="46" ry="21" fill="none" stroke="currentColor" strokeWidth="3" />
+        <g transform="rotate(-13 80 30)">
+          <ellipse cx="80" cy="30" rx="47" ry="21" fill="none" stroke="currentColor" strokeWidth="3.5" />
           <path
-            d="M67 16 L67 44 M93 16 L93 44 M67 22 L93 38"
+            d="M65 15 L65 45 M65 19 C 78 19, 82 27, 95 27 L95 15 M95 45 L95 33 C 82 33, 78 41, 65 41"
             fill="none"
             stroke="currentColor"
-            strokeWidth="3.6"
+            strokeWidth="4"
             strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </g>
       </symbol>
